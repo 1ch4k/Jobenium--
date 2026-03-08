@@ -71,7 +71,7 @@ def run():
 
     # ── Config ────────────────────────────────────────────────────────────────
     config_path = os.path.join(os.path.dirname(__file__), '../configs/config.json')
-    with open(config_path, "r", encoding="utf-8") as f:
+    with open(config_path, "r", encoding="utf-16") as f:
         config = json.load(f)
     EMAIL    = config["email"]
     PASSWORD = config["jobteaser_password"]

@@ -7,9 +7,9 @@ from jobteaser import run as run_jobteaser
 
 # Dictionary of platforms
 platforms = {
-    "HelloWork": run_hellowork,
     "APEC": run_apec,
-    "JobTeaser": run_jobteaser
+    "JobTeaser": run_jobteaser,
+    "HelloWork": run_hellowork
 }
 
 # Show the selection menu

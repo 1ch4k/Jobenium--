@@ -76,7 +76,7 @@ def run():
 
     # ===== LOAD CONFIG =====
     config_path = os.path.join(os.path.dirname(__file__), '../configs/config.json')
-    with open(config_path, "r") as file:
+    with open(config_path, "r", encoding="utf-16") as file:
         config = json.load(file)
 
     EMAIL = config["email"]
